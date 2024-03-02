@@ -163,7 +163,7 @@ main {
     border: 1px solid #4e4e53;
     padding: 6px;
     font-size: 17px;
-    border-radius: 50%;
+    border-radius: 10px;
     display: none;
 }
 

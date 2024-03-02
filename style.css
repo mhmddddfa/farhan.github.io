@@ -831,21 +831,19 @@ main {
         display: none;
     }
 
-    .container main .header .search {
-        width: 40%;
-    }
-
     .container .sidebar .menu {
         margin-bottom: 32px;
     }
 }
 
-
-@media screen and (max-width:271px) {
+@media screen and (max-width:375px) {
     .container main .header .navlink a{
         display: none;
     }
+}
 
+
+@media screen and (max-width:271px) {
     .container main .header .search {
         width: 80%;
     }

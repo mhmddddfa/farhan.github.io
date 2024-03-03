@@ -161,7 +161,7 @@ main {
 
 .container main .header .navlink i {
     border: 1px solid #4e4e53;
-    padding: 6px;
+    padding: 8px;
     font-size: 17px;
     border-radius: 10px;
     display: none;
@@ -746,6 +746,7 @@ main {
 
     .container .open-nav {
        transform: translateX(0);
+       gap: 33px;
     }
 
     .container main .header .search {
@@ -821,6 +822,10 @@ main {
         padding: 40px;
     }
 
+    .container .sidebar {
+        gap: 30px;
+    }
+
     .container .right-section .profile {
         display: flex;
         justify-content: center;
@@ -841,7 +846,57 @@ main {
         display: none;
     }
 
+    .container .sidebar {
+        gap: 22px;
+    }
+
+    .container .sidebar .playing {
+        display: none;
+    }
+
+    .container .sidebar .menu {
+        margin-bottom: 0;
+    }
+
+    .container .right-section {
+        padding: 15px 40px 15px 40px;
+    }
+
+    .container .right-section .player {
+        margin-top: 30px;
+        gap: 10px;
+    }
+
+    .container .right-section .player .action .top i {
+        font-size: 15px;
+    }
+
+    .container .right-section .player .action .bottom h4 {
+        font-size: 13px;
+    }
+
+    .container .right-section .player .action {
+        padding: 30px 30px 15px 30px;
+    }
+
+    .container .right-section .player .action .bottom {
+        margin-top: 0;
+    }
+
+    .container .right-section .player .content h2 {
+        font-size: 1.2rem;
+    }
+
+    .container .right-section .player .content img {
+        width: 150px;
+        height: 100px;
+    }
+
     .container main .header .search {
         width: 80%;
+    }
+
+    .container main .header .search {
+        border-color: #4e4e53;
     }
 }
